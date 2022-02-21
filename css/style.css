@@ -36,12 +36,13 @@ ul{
 /* main */
 
 .banner{
-    height: 800px;
+    height: 700px;
     margin-bottom: 20px;
     background-image: url("../img/banner.jpg");
     background-size: cover;
     border-radius: 10px;
     filter: brightness(80%);
+    background-position: center;
 }
 .banner_title{
     width: 800px;
@@ -49,7 +50,7 @@ ul{
     font-size: 30px;
     font-weight: 500;
     position: absolute;
-    bottom: 200px;
+    bottom: 300px;
     padding-left: 50px;
 }
 .b_text{
@@ -57,7 +58,7 @@ ul{
     color: white;
     font-size: 20px;
     position: absolute;
-    bottom: 150px;
+    bottom: 250px;
     padding-left: 50px;
 }
 .text_titles{
@@ -86,12 +87,12 @@ ul{
 .side_col{
     float: left;
     height: 600px;
-    width: 18%;
+    width: 23%;
 }
 .centre_col{
     float: left;
     height: 600px;
-    width: 60%;
+    width: 50%;
 }
 .side_col > p{
     color: gray;
@@ -110,14 +111,14 @@ ul{
     height: 250px;
     filter: brightness(80%);
     width: 100%;
-    object-fit: contain;
+    background-position: center;  
 }
 .img3{
     background-image: url("../img/img-3.jpg");
     width: 100%;
     height: 250px;
     filter: brightness(80%);
-    background-size: contain;
+    background-size: cover;
 }
 
 /* footer */
