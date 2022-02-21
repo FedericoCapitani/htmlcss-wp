@@ -36,36 +36,45 @@ ul{
 /* main */
 
 .banner{
-    height: 550px;
+    height: 800px;
     margin-bottom: 20px;
     background-image: url("../img/banner.jpg");
+    background-size: cover;
     border-radius: 10px;
     filter: brightness(80%);
 }
 .banner_title{
-    width: 600px;
+    width: 800px;
     color: white;
     font-size: 30px;
     font-weight: 500;
     position: absolute;
-    bottom: 400px;
+    bottom: 200px;
     padding-left: 50px;
 }
 .b_text{
-    width: 600px;
+    width: 800px;
     color: white;
+    font-size: 20px;
     position: absolute;
-    bottom: 350px;
+    bottom: 150px;
     padding-left: 50px;
 }
 .text_titles{
     height: 100px;
-    background-color: aqua;
+}
+.text_titles > h2{
+    font-size: 30px;
+    vertical-align: middle;
+    line-height: 50px;
+}
+.text_titles > p{
+    color: gray;
+    font-size: 18px;
 }
 .text_area{
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: blue;
     margin-bottom: 10px;
 }
 .marginR{
@@ -77,20 +86,51 @@ ul{
 .side_col{
     float: left;
     height: 600px;
-    width: 28%;
-    background-color: aqua;
+    width: 18%;
 }
 .centre_col{
     float: left;
     height: 600px;
-    width: 40%;
-    background-color: aqua;
+    width: 60%;
+}
+.side_col > p{
+    color: gray;
+}
+.side_col > .img1{
+    background-image: url("../img/img-1.jpg");
+    width: 100%;
+    height: 250px;
+    filter: brightness(80%);
+}
+.centre_col > p{
+    color: gray;
+}
+.banner2{
+    background-image: url("../img/banner-2.jpg");
+    height: 250px;
+    filter: brightness(80%);
+    width: 100%;
+    object-fit: contain;
+}
+.img3{
+    background-image: url("../img/img-3.jpg");
+    width: 100%;
+    height: 250px;
+    filter: brightness(80%);
+    background-size: contain;
 }
 
 /* footer */
 
 .site_footer{
-    background-color: purple;
     height: 100px;
     margin-bottom: 10px;
+}
+
+footer > p{
+    text-align: center;
+}
+
+#cuore{
+    color: red;
 }
