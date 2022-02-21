@@ -17,17 +17,46 @@ body{
 
 .site_header{
     margin-top: 10px;
-    height: 200px;
-    background-color: blueviolet;
+    height: 150px;
     margin-bottom: 20px;
 }
-
+.logo{
+    width: 200px;
+    padding-right: 20px;
+    border-right: 1px solid gray;
+}
+li{
+    display: inline-block;
+    color: gray;
+    margin-right: 10px;
+}
+ul{
+    margin-top: 20px;
+}
 /* main */
 
 .banner{
-    height: 600px;
-    background-color: rgb(255, 196, 0);
+    height: 550px;
     margin-bottom: 20px;
+    background-image: url("../img/banner.jpg");
+    border-radius: 10px;
+    filter: brightness(80%);
+}
+.banner_title{
+    width: 600px;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 400px;
+    padding-left: 50px;
+}
+.b_text{
+    width: 600px;
+    color: white;
+    position: absolute;
+    bottom: 350px;
+    padding-left: 50px;
 }
 .text_titles{
     height: 100px;
