@@ -45,8 +45,11 @@ ul{
     background-size: cover;
     border-radius: 10px;
     background-position: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
 }
-.banner_title{
+/* .banner_title{
     width: 800px;
     color: white;
     font-size: 30px;
@@ -54,14 +57,18 @@ ul{
     position: absolute;
     bottom: 300px;
     padding-left: 50px;
-}
-.b_text{
-    width: 800px;
+} */
+.text{
+    width: 50%;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     position: absolute;
-    bottom: 250px;
-    padding-left: 50px;
+    bottom: 5rem;
+    left: 2.5rem;
+}
+.title{
+    font-size: 30px;
+    font-weight: 300;
 }
 .text_titles{
     height: 100px;
